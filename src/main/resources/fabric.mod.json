@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "doairisroll",
+  "version": "${version}",
+  "name": "DoAIrisRoll",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cxx34/DoAIrisRoll"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/doairisroll/icon.png",
+  "entrypoints": {
+  },
+  "environment": "client",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "afl:unmixer": [
+      "nl.enjarai.doabarrelroll.mixin.client.roll.GameRendererMixin"
+    ],
+    "afl:classtransform": "doairisroll.classtransform.json"
+  }
+}

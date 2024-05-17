@@ -1,0 +1,8 @@
+{
+  "package": "dev.louis.doairisroll.transformer",
+  "java": [
+  ],
+  "mixins": [
+    "MixinModelViewBobbingTransformer"
+  ]
+}
